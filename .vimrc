@@ -1,6 +1,3 @@
-"Use pathogen
-execute  pathogen#infect()
-
 "Move vertically by visual line
 nnoremap j gj
 nnoremap k gk
@@ -20,9 +17,6 @@ nnoremap <leader>s :mksession<CR>
 
 "Load filetypt-specific indent files
 filetype indent on
-
-"Colors
-colorscheme badwolf
 
 "Enable syntax processing
 syntax enable
